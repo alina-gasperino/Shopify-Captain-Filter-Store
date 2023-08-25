@@ -136,6 +136,20 @@
       enable_content: section.settings.enable_live_search_articles_pages
     %}
 
+    <div class="site-navigation-wrapper {% if shop.customer_accounts_enabled %}site-navigation--has-actions{% endif %}{% if section.settings.full_width_header %}site-header--full-width{% endif %}"
+      data-site-navigation
+      id="site-header-nav">
+      <nav class="site-navigation" aria-label="{{ 'general.accessibility.nav_main' | t }}">
+        {%
+          render 'navmenu',
+          menu: section.settings.menu,
+          blocks: section.blocks,
+        %}
+    
+        {% render 'site-header-actions' %}
+      </nav>
+    </div>
+
     {% if section.settings.small_promo_text != blank or section.settings.small_promo_heading != blank %}
       <div class="small-promo">
         {% if section.settings.small_promo_icon != 'none' or section.settings.image %}
@@ -206,35 +220,6 @@
       <span class="visually-hidden">{{ 'general.accessibility.cart' | t }}</span>
     </a>
   </div>
-</div>
-
-<div
-  class="
-    site-navigation-wrapper
-
-    {% if shop.customer_accounts_enabled %}
-      site-navigation--has-actions
-    {% endif %}
-
-    {% if section.settings.full_width_header %}
-      site-header--full-width
-    {% endif %}
-  "
-  data-site-navigation
-  id="site-header-nav"
->
-  <nav
-    class="site-navigation"
-    aria-label="{{ 'general.accessibility.nav_main' | t }}"
-  >
-    {%
-      render 'navmenu',
-      menu: section.settings.menu,
-      blocks: section.blocks,
-    %}
-
-    {% render 'site-header-actions' %}
-  </nav>
 </div>
 
 {%
