@@ -39,7 +39,7 @@
     "layout_max_width": 1400,
     "product_show_vendor": false,
     "product_show_sku": false,
-    "product_option_style": "select",
+    "product_option_style": "radio",
     "product_sales_badge": true,
     "product_sales_badge_style": "percentile",
     "product_social_sharing": true,
@@ -68,7 +68,7 @@
     "social_youtube": "",
     "social_linkedin": "",
     "social_email": "",
-    "favicon": "shopify:\/\/shop_images\/favicon.png",
+    "favicon": "shopify:\/\/shop_images\/CaptainFilter_Logo.png",
     "enable_checkout_lock_icon": false,
     "continue_shopping_url": "shopify:\/\/collections\/all",
     "continue_url_cart": true,
@@ -98,31 +98,11 @@
     "sections": {
       "static-header": {
         "type": "static-header",
-        "blocks": {
-          "1517257487463": {
-            "type": "meganav_images",
-            "settings": {
-              "meganav_trigger": "Catalog",
-              "image_1": "shopify:\/\/shop_images\/CaptainFilter_Logo.png",
-              "text_1": "home",
-              "link_1": "shopify:\/\/products\/10-x-15-x-1-hvac-filter",
-              "position_1": "first",
-              "size_1": "medium",
-              "image_2": "shopify:\/\/shop_images\/CaptainFilter_Logo_black.png",
-              "text_2": "fvasfsadf",
-              "link_2": "shopify:\/\/pages\/contact",
-              "position_2": "last",
-              "size_2": "medium"
-            }
-          }
-        },
-        "block_order": [
-          "1517257487463"
-        ],
         "settings": {
           "sticky_header": false,
           "full_width_header": false,
-          "logo_height": 100,
+          "logo": "shopify:\/\/shop_images\/CaptainFilter_Logo.png",
+          "logo_height": 80,
           "logo_width": 250,
           "filter_search_by": "tag",
           "enable_live_search": true,
@@ -148,17 +128,6 @@
           "show_date": true,
           "show_author": true,
           "use_share_buttons": true
-        }
-      },
-      "1497995056454": {
-        "type": "dynamic-featured-collection",
-        "settings": {
-          "title": "Bodycare",
-          "layout": "slideshow",
-          "collection": "bodycare",
-          "product_count": 10,
-          "cta_label": "",
-          "cta_button_style": "primary"
         }
       },
       "dynamic-slideshow": {
@@ -373,65 +342,6 @@
           "menu_depth_range": 1
         }
       },
-      "1497982042455": {
-        "type": "dynamic-promo-mosaic",
-        "blocks": {
-          "1498248685900": {
-            "type": "promotion",
-            "settings": {
-              "title": "",
-              "text": "",
-              "color": "#4d4d4d",
-              "block_link": "shopify:\/\/collections\/home-kitchen",
-              "button_text": "",
-              "button_style": "primary",
-              "show_overlay": false,
-              "background": "",
-              "opacity": 50
-            }
-          },
-          "1498248584447": {
-            "type": "promotion",
-            "settings": {
-              "title": "",
-              "text": "",
-              "color": "#4d4d4d",
-              "block_link": "shopify:\/\/collections\/electronics",
-              "button_text": "",
-              "button_style": "primary",
-              "show_overlay": false,
-              "background": "",
-              "opacity": 50
-            }
-          },
-          "1497982042455-1": {
-            "type": "promotion",
-            "settings": {
-              "title": "",
-              "text": "",
-              "color": "#4d4d4d",
-              "block_link": "shopify:\/\/collections\/jewelry",
-              "button_text": "",
-              "button_style": "primary",
-              "show_overlay": false,
-              "background": "",
-              "opacity": 50
-            }
-          }
-        },
-        "block_order": [
-          "1498248685900",
-          "1498248584447",
-          "1497982042455-1"
-        ],
-        "settings": {
-          "title": "",
-          "section_height": "medium",
-          "text_alignment": "top-left",
-          "maintain_aspect_ratio": false,
-          "compress_blocks": false
-        }
-      },
       "static-blog": {
         "type": "static-blog",
         "settings": {
@@ -462,7 +372,7 @@
       "static-announcement": {
         "type": "static-announcement",
         "settings": {
-          "show_announcement": true,
+          "show_announcement": false,
           "homepage_announcement": false,
           "announcement_text": "ENJOY OUR 10% OFF DEALS FOR THE NEXT 24 HOURS ONLY!",
           "announcement_text_mobile": "",
@@ -488,175 +398,6 @@
         "type": "static-product-reviews",
         "settings": {}
       },
-      "1617155294a105a0f5": {
-        "type": "dynamic-collection-list",
-        "blocks": {
-          "1617155294a105a0f5-4": {
-            "type": "collection",
-            "settings": {
-              "collection": "women",
-              "title": ""
-            }
-          },
-          "ba9d0430-c2fa-4b1c-9477-697ca8f3900d": {
-            "type": "collection",
-            "settings": {
-              "collection": "men",
-              "title": ""
-            }
-          },
-          "f1afcea7-9f7b-47dd-9a78-7d31b9c0c2c8": {
-            "type": "collection",
-            "settings": {
-              "collection": "baby",
-              "title": ""
-            }
-          },
-          "1617155294a105a0f5-3": {
-            "type": "collection",
-            "settings": {
-              "collection": "jewelry",
-              "title": ""
-            }
-          },
-          "1617155294a105a0f5-1": {
-            "type": "collection",
-            "settings": {
-              "collection": "bodycare",
-              "title": ""
-            }
-          },
-          "1617155294a105a0f5-2": {
-            "type": "collection",
-            "settings": {
-              "collection": "handbags",
-              "title": ""
-            }
-          },
-          "0ee7dc6e-0695-4719-a3fc-5e6d285638b3": {
-            "type": "collection",
-            "settings": {
-              "collection": "pet-care",
-              "title": ""
-            }
-          },
-          "9bdd2ec4-4506-45fe-8515-86d5004df66b": {
-            "type": "collection",
-            "settings": {
-              "collection": "hair-beauty",
-              "title": ""
-            }
-          },
-          "d71af5f8-64fb-43d8-b924-7d80b2bc5b9c": {
-            "type": "collection",
-            "settings": {
-              "collection": "",
-              "title": "Foot Wear"
-            }
-          }
-        },
-        "block_order": [
-          "1617155294a105a0f5-4",
-          "ba9d0430-c2fa-4b1c-9477-697ca8f3900d",
-          "f1afcea7-9f7b-47dd-9a78-7d31b9c0c2c8",
-          "1617155294a105a0f5-3",
-          "1617155294a105a0f5-1",
-          "1617155294a105a0f5-2",
-          "0ee7dc6e-0695-4719-a3fc-5e6d285638b3",
-          "9bdd2ec4-4506-45fe-8515-86d5004df66b",
-          "d71af5f8-64fb-43d8-b924-7d80b2bc5b9c"
-        ],
-        "settings": {
-          "title": "Featured Collections",
-          "thumbnail-columns--desktop": 4,
-          "thumbnail-columns--mobile": 2,
-          "image-crop": "original",
-          "cta_label": "View All",
-          "cta_link": "",
-          "cta_button_style": "primary"
-        }
-      },
-      "1617155439c52a8c42": {
-        "type": "dynamic-featured-collection",
-        "settings": {
-          "title": "Home & Kitchen",
-          "layout": "grid",
-          "collection": "home-kitchen",
-          "product_count": 5,
-          "cta_label": "Shop collection",
-          "cta_button_style": "primary"
-        }
-      },
-      "16171557981c89e79c": {
-        "type": "dynamic-testimonials",
-        "blocks": {
-          "16171557981c89e79c-0": {
-            "type": "testimonial",
-            "settings": {
-              "star_rating": "5",
-              "text": "<p>Shipping on time! Quick response and excellent service. Gift was perfect!<\/p>",
-              "author": "<p>Hadley Finch<\/p>"
-            }
-          },
-          "16171557981c89e79c-1": {
-            "type": "testimonial",
-            "settings": {
-              "star_rating": "5",
-              "text": "<p>Been ordering from here since 2019, Don&#x27;t plan on stopping anytime soon. Love this place!<\/p>",
-              "author": "<p>Stephen<\/p>"
-            }
-          },
-          "16171557981c89e79c-2": {
-            "type": "testimonial",
-            "settings": {
-              "star_rating": "5",
-              "text": "<p>Exactly what I wanted! Great quality.<\/p>",
-              "author": "<p>Greta Morgan<\/p>"
-            }
-          }
-        },
-        "block_order": [
-          "16171557981c89e79c-0",
-          "16171557981c89e79c-1",
-          "16171557981c89e79c-2"
-        ],
-        "settings": {
-          "title": "What Our Customers Say",
-          "image_crop": "circle",
-          "text_size": "medium"
-        }
-      },
-      "1617240434010959f7": {
-        "type": "dynamic-featured-collection",
-        "settings": {
-          "title": "Men",
-          "layout": "grid",
-          "collection": "men",
-          "product_count": 5,
-          "cta_label": "Shop collection",
-          "cta_button_style": "primary"
-        }
-      },
-      "1617240460f3685e4f": {
-        "type": "dynamic-featured-collection",
-        "settings": {
-          "title": "Women",
-          "layout": "grid",
-          "collection": "women",
-          "product_count": 5,
-          "cta_label": "Shop collection",
-          "cta_button_style": "primary"
-        }
-      },
-      "16173229552da9c783": {
-        "type": "instafeed",
-        "settings": {
-          "heading_font": "helvetica_n4",
-          "heading_size": 20,
-          "feed_width": 100,
-          "html_area": ""
-        }
-      },
       "static-cart": {
         "type": "static-cart",
         "settings": {
@@ -664,19 +405,86 @@
           "enable_shipping_calc": false,
           "shipping_calc_default_country": "United States"
         }
+      },
+      "213bf4c0-c334-4d84-ae50-51574a4a12e9": {
+        "type": "dynamic-image-with-text",
+        "settings": {
+          "section_heading": "Image with text",
+          "crop": "center",
+          "desktop_height": "natural",
+          "mobile_height": "natural",
+          "desktop_image_alignment": "right",
+          "mobile_image_alignment": "top",
+          "heading": "Image with text",
+          "subheading": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+          "text_alignment": "left",
+          "button_label": "Button",
+          "button_link": ""
+        }
+      },
+      "ebd3c03d-a3e5-46dc-88cb-f536522e5dfe": {
+        "type": "dynamic-logo-list",
+        "blocks": {
+          "ebd3c03d-a3e5-46dc-88cb-f536522e5dfe-logo-1": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/honeywell-vector-logo.svg",
+              "link": ""
+            }
+          },
+          "ebd3c03d-a3e5-46dc-88cb-f536522e5dfe-logo-2": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/rheem-manufacturing-company-vector-logo.svg",
+              "link": ""
+            }
+          },
+          "ebd3c03d-a3e5-46dc-88cb-f536522e5dfe-logo-3": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/trane-vector-logo.svg",
+              "link": ""
+            }
+          },
+          "ebd3c03d-a3e5-46dc-88cb-f536522e5dfe-logo-4": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/lennox.svg",
+              "link": ""
+            }
+          },
+          "c17d2cc2-8210-4377-ac56-7a6bacc469f7": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/trion-logo.svg",
+              "link": ""
+            }
+          },
+          "d2ff4ac3-0920-4636-84ca-5524abc4a6e2": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/aprilaire.svg",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "ebd3c03d-a3e5-46dc-88cb-f536522e5dfe-logo-1",
+          "ebd3c03d-a3e5-46dc-88cb-f536522e5dfe-logo-2",
+          "ebd3c03d-a3e5-46dc-88cb-f536522e5dfe-logo-3",
+          "ebd3c03d-a3e5-46dc-88cb-f536522e5dfe-logo-4",
+          "c17d2cc2-8210-4377-ac56-7a6bacc469f7",
+          "d2ff4ac3-0920-4636-84ca-5524abc4a6e2"
+        ],
+        "settings": {
+          "title": "Filters for every system"
+        }
       }
     },
     "content_for_index": [
       "dynamic-slideshow",
-      "dynamic-highlights-banner",
-      "1497982042455",
-      "1617155294a105a0f5",
-      "1617240460f3685e4f",
-      "1617240434010959f7",
-      "1617155439c52a8c42",
-      "1497995056454",
-      "16171557981c89e79c",
-      "16173229552da9c783"
+      "213bf4c0-c334-4d84-ae50-51574a4a12e9",
+      "ebd3c03d-a3e5-46dc-88cb-f536522e5dfe"
     ]
   },
   "presets": {
