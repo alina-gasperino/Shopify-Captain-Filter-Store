@@ -7,6 +7,13 @@
   }
 </script>
 
+<style>
+#shopify-section-{{section.id}} {
+  padding-top: {{section.settings.pad_top}}px;
+  background: {{section.settings.bg_color}};
+}
+</style>
+
 <section class="logolist--container">
   {% if section.settings.title != blank %}
     <h2 class="home-section--title">
@@ -64,6 +71,32 @@
       "id": "description",
       "label": "Description",
       "default": "<p>Description</p>"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "range",
+      "id": "pad_top",
+      "label": "Padding Top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "pad_bottom",
+      "label": "Padding Bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 50
     }
   ],
   "blocks": [

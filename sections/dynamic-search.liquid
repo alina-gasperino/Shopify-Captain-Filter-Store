@@ -29,6 +29,14 @@
   }
 </script>
 
+<style>
+  #shopify-section-{{section.id}} {
+    padding-top: {{section.settings.pad_top}}px;    
+    padding-bottom: {{section.settings.pad_bottom}}px;
+    background: {{section.settings.background}};
+    margin-top: 0;
+  }
+</style>
 {% assign show_overlay = section.settings.show-overlay %}
 {% assign overlay_color = section.settings.background %}
 {% assign overlay_opacity = section.settings.opacity | times: 0.01 %}
