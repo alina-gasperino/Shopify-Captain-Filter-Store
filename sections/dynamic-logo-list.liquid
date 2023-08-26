@@ -13,6 +13,11 @@
       {{ section.settings.title | escape }}
     </h2>
   {% endif %}
+  {% if section.settings.description != blank %}
+    <div class="home-section--description">
+      {{ section.settings.description }}
+    </div>
+  {% endif %}
 
   <div class="home-section--content logolist--inner">
     {% for block in section.blocks %}
@@ -53,6 +58,12 @@
       "id": "title",
       "label": "Heading",
       "default": "Logo list"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "<p>Description</p>"
     }
   ],
   "blocks": [

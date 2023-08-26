@@ -170,31 +170,11 @@
               "overlay_color": "#000000",
               "overlay_opacity": 50
             }
-          },
-          "6461c8ae-ce0b-47f6-b19f-14341d7c3274": {
-            "type": "slide",
-            "settings": {
-              "title": "Slide",
-              "text": "For the Men in Your life",
-              "color": "#ffffff",
-              "link": "",
-              "text_alignment": "center",
-              "button_one_label": "Button",
-              "button_one_link": "shopify:\/\/collections\/mother-s-day-gifts",
-              "button_one_style": "primary",
-              "button_two_label": "",
-              "button_two_link": "",
-              "button_two_style": "primary",
-              "show_overlay": true,
-              "overlay_color": "#000000",
-              "overlay_opacity": 50
-            }
           }
         },
         "block_order": [
           "1517242272829",
-          "52aae9a2-160a-4337-b66d-bdead7b79502",
-          "6461c8ae-ce0b-47f6-b19f-14341d7c3274"
+          "52aae9a2-160a-4337-b66d-bdead7b79502"
         ],
         "settings": {
           "enable_autoplay": true,
@@ -477,14 +457,15 @@
           "d2ff4ac3-0920-4636-84ca-5524abc4a6e2"
         ],
         "settings": {
-          "title": "Filters for every system"
+          "title": "Filters for every system",
+          "description": "<p>Our filters are compatible with most major brands<\/p>"
         }
       }
     },
     "content_for_index": [
       "dynamic-slideshow",
-      "213bf4c0-c334-4d84-ae50-51574a4a12e9",
-      "ebd3c03d-a3e5-46dc-88cb-f536522e5dfe"
+      "ebd3c03d-a3e5-46dc-88cb-f536522e5dfe",
+      "213bf4c0-c334-4d84-ae50-51574a4a12e9"
     ]
   },
   "presets": {
