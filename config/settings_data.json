@@ -1,24 +1,24 @@
 {
   "current": {
     "color_background": "#ffffff",
-    "color_headings": "#222222",
-    "color_text": "#4d4d4d",
-    "color_text_light": "#949494",
-    "color_links": "#00afef",
-    "color_button_background": "#00afef",
+    "color_headings": "#133c68",
+    "color_text": "#133c68",
+    "color_text_light": "#133c68",
+    "color_links": "#133c68",
+    "color_button_background": "#133c68",
     "color_button_text": "#ffffff",
     "color_button_secondary_background": "#ffffff",
-    "color_button_secondary_text": "#00afef",
-    "color_button_secondary_border": "#dddddd",
-    "color_header_background": "#30656b",
+    "color_button_secondary_text": "#133c68",
+    "color_button_secondary_border": "#133c68",
+    "color_header_background": "#133c68",
     "color_header_text": "#ffffff",
     "color_input_text": "#4d4d4d",
     "color_input_background": "#ffffff",
     "color_input_border": "#dddddd",
     "color_product_sale_accent": "#de0101",
     "color_product_review_star": "#ffab41",
-    "color_footer_background": "#f8f8f8",
-    "color_footer_text": "#5c5c5c",
+    "color_footer_background": "#133c68",
+    "color_footer_text": "#ffffff",
     "color_overlay": "#000000",
     "overlay_opacity": 50,
     "type_size_base": 16,
@@ -133,25 +133,6 @@
       "dynamic-slideshow": {
         "type": "dynamic-slideshow",
         "blocks": {
-          "1517242272829": {
-            "type": "slide",
-            "settings": {
-              "title": "",
-              "text": "",
-              "color": "#ffffff",
-              "link": "",
-              "text_alignment": "center",
-              "button_one_label": "",
-              "button_one_link": "",
-              "button_one_style": "primary",
-              "button_two_label": "",
-              "button_two_link": "",
-              "button_two_style": "primary",
-              "show_overlay": true,
-              "overlay_color": "#000000",
-              "overlay_opacity": 45
-            }
-          },
           "52aae9a2-160a-4337-b66d-bdead7b79502": {
             "type": "slide",
             "settings": {
@@ -173,7 +154,6 @@
           }
         },
         "block_order": [
-          "1517242272829",
           "52aae9a2-160a-4337-b66d-bdead7b79502"
         ],
         "settings": {
@@ -389,14 +369,14 @@
       "213bf4c0-c334-4d84-ae50-51574a4a12e9": {
         "type": "dynamic-image-with-text",
         "settings": {
-          "section_heading": "Image with text",
+          "section_heading": "The importance of regularly changing your HVAC filter",
           "crop": "center",
           "desktop_height": "natural",
           "mobile_height": "natural",
           "desktop_image_alignment": "right",
           "mobile_image_alignment": "top",
-          "heading": "Image with text",
-          "subheading": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+          "heading": "Improved Indoor Air Quality for a Healthier Home Environment",
+          "subheading": "<p>Regularly changing your HVAC filter is crucial for maintaining a healthy living space. The filter captures dust, pollen, pet dander, and other airborne particles that circulate in your home. Over time, these particles accumulate, leading to poor indoor air quality. By replacing your HVAC filter regularly, you can ensure cleaner air, reducing the risk of respiratory problems, allergies, and asthma attacks. Breathe easy knowing that your loved ones are enjoying a healthier home environment.<\/p>",
           "text_alignment": "left",
           "button_label": "Button",
           "button_link": ""
@@ -460,12 +440,195 @@
           "title": "Filters for every system",
           "description": "<p>Our filters are compatible with most major brands<\/p>"
         }
+      },
+      "eb524209-27de-4983-aea4-ff9a70d087d5": {
+        "type": "dynamic-search",
+        "settings": {
+          "title": "",
+          "text": "",
+          "placeholder": "Find filters for your system",
+          "filter_search_by": "disabled",
+          "enable_live_search": true,
+          "enable_live_search_images": true,
+          "enable_live_search_articles_pages": true,
+          "position": "center-center",
+          "show-overlay": false,
+          "color": "#ffffff",
+          "background": "#000000",
+          "opacity": 50,
+          "pad_top": 50,
+          "pad_bottom": 50
+        }
+      },
+      "75d2452f-eaac-48b2-8046-1febea9ad4f0": {
+        "type": "dynamic-image-with-text",
+        "settings": {
+          "section_heading": "",
+          "crop": "center",
+          "desktop_height": "natural",
+          "mobile_height": "natural",
+          "desktop_image_alignment": "right",
+          "mobile_image_alignment": "top",
+          "heading": "Enhanced Energy Efficiency and Lower Utility Bills",
+          "subheading": "<p>A clogged or dirty HVAC filter can hinder the system's performance and efficiency. It restricts airflow, forcing the HVAC system to work harder to maintain the desired temperature. This extra strain increases energy consumption and raises your utility bills. By changing the filter regularly, you allow for proper airflow, optimizing the efficiency of your HVAC system. Experience improved energy efficiency and enjoy significant savings on your monthly utility expenses.<\/p>",
+          "text_alignment": "left",
+          "button_label": "Button",
+          "button_link": ""
+        }
+      },
+      "4d6cc5f0-7e12-4528-83c3-d7b967ba892d": {
+        "type": "dynamic-image-with-text",
+        "settings": {
+          "section_heading": "",
+          "crop": "center",
+          "desktop_height": "natural",
+          "mobile_height": "natural",
+          "desktop_image_alignment": "right",
+          "mobile_image_alignment": "top",
+          "heading": "Prolonged Lifespan of Your HVAC System",
+          "subheading": "<p>Your HVAC system is a significant investment, and you want it to last as long as possible. Neglecting to change the HVAC filter can have detrimental effects on its lifespan. A dirty filter causes the system to work harder, leading to increased wear and tear on vital components. Regularly replacing the filter ensures that your HVAC system operates smoothly, reducing the risk of breakdowns and extending its overall lifespan. Protect your investment and enjoy reliable comfort for years to come.<\/p>",
+          "text_alignment": "left",
+          "button_label": "Button",
+          "button_link": ""
+        }
+      },
+      "f8c180c8-44c9-42bb-bed7-5453998df8bd": {
+        "type": "dynamic-testimonials",
+        "blocks": {
+          "f8c180c8-44c9-42bb-bed7-5453998df8bd-testimonial-1": {
+            "type": "testimonial",
+            "settings": {
+              "star_rating": "5",
+              "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+              "author": "<p>Author's name<\/p>"
+            }
+          },
+          "5e99f3ca-aff0-4746-a97e-e81002f2d9c6": {
+            "type": "testimonial",
+            "settings": {
+              "star_rating": "5",
+              "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+              "author": "<p>Author's name<\/p>"
+            }
+          },
+          "3ebd5620-7926-4660-983d-505a52a8b86a": {
+            "type": "testimonial",
+            "settings": {
+              "star_rating": "5",
+              "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+              "author": "<p>Author's name<\/p>"
+            }
+          },
+          "b07b30bd-8326-4b4d-988e-809620726895": {
+            "type": "testimonial",
+            "settings": {
+              "star_rating": "5",
+              "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+              "author": "<p>Author's name<\/p>"
+            }
+          },
+          "9eee4404-1153-47f9-a5b6-50c82666fc9a": {
+            "type": "testimonial",
+            "settings": {
+              "star_rating": "5",
+              "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+              "author": "<p>Author's name<\/p>"
+            }
+          },
+          "6495ef42-6908-43c7-bc09-6fbef38ff00c": {
+            "type": "testimonial",
+            "settings": {
+              "star_rating": "5",
+              "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+              "author": "<p>Author's name<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "f8c180c8-44c9-42bb-bed7-5453998df8bd-testimonial-1",
+          "5e99f3ca-aff0-4746-a97e-e81002f2d9c6",
+          "3ebd5620-7926-4660-983d-505a52a8b86a",
+          "b07b30bd-8326-4b4d-988e-809620726895",
+          "9eee4404-1153-47f9-a5b6-50c82666fc9a",
+          "6495ef42-6908-43c7-bc09-6fbef38ff00c"
+        ],
+        "settings": {
+          "title": "Testimonials",
+          "image_crop": "circle",
+          "text_size": "medium"
+        }
+      },
+      "43205e7d-73e3-4377-8dc8-ff46efef3698": {
+        "type": "dynamic-promo-grid",
+        "blocks": {
+          "43205e7d-73e3-4377-8dc8-ff46efef3698-promotion-1": {
+            "type": "promotion",
+            "settings": {
+              "background_position": "center-center",
+              "title": "MERV Rating 1",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
+              "color": "#133c68",
+              "block_link": "",
+              "button_text": "",
+              "button_style": "primary",
+              "show_overlay": false,
+              "background": "",
+              "opacity": 1
+            }
+          },
+          "fa275734-9a44-4db2-ae4d-707566f4ca85": {
+            "type": "promotion",
+            "settings": {
+              "background_position": "center-center",
+              "title": "MERV Rating 2",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
+              "color": "#133c68",
+              "block_link": "",
+              "button_text": "",
+              "button_style": "primary",
+              "show_overlay": false,
+              "background": "",
+              "opacity": 1
+            }
+          },
+          "d6d46d93-caa3-42bd-a846-d07e532b71c0": {
+            "type": "promotion",
+            "settings": {
+              "background_position": "center-center",
+              "title": "MERV Rating 3",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
+              "color": "#133c68",
+              "block_link": "",
+              "button_text": "",
+              "button_style": "primary",
+              "show_overlay": false,
+              "background": "",
+              "opacity": 1
+            }
+          }
+        },
+        "block_order": [
+          "43205e7d-73e3-4377-8dc8-ff46efef3698-promotion-1",
+          "fa275734-9a44-4db2-ae4d-707566f4ca85",
+          "d6d46d93-caa3-42bd-a846-d07e532b71c0"
+        ],
+        "settings": {
+          "title": "What MERV rating do you need for your HVAC system?",
+          "section_height": "small",
+          "section_columns": 3,
+          "text_alignment": "center-center"
+        }
       }
     },
     "content_for_index": [
       "dynamic-slideshow",
       "ebd3c03d-a3e5-46dc-88cb-f536522e5dfe",
-      "213bf4c0-c334-4d84-ae50-51574a4a12e9"
+      "eb524209-27de-4983-aea4-ff9a70d087d5",
+      "213bf4c0-c334-4d84-ae50-51574a4a12e9",
+      "75d2452f-eaac-48b2-8046-1febea9ad4f0",
+      "4d6cc5f0-7e12-4528-83c3-d7b967ba892d",
+      "f8c180c8-44c9-42bb-bed7-5453998df8bd",
+      "43205e7d-73e3-4377-8dc8-ff46efef3698"
     ]
   },
   "presets": {
