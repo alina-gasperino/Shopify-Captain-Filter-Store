@@ -370,6 +370,7 @@
         "type": "dynamic-image-with-text",
         "settings": {
           "section_heading": "The importance of regularly changing your HVAC filter",
+          "image": "shopify:\/\/shop_images\/placeholder.webp",
           "crop": "center",
           "desktop_height": "natural",
           "mobile_height": "natural",
@@ -438,7 +439,10 @@
         ],
         "settings": {
           "title": "Filters for every system",
-          "description": "<p>Our filters are compatible with most major brands<\/p>"
+          "description": "<p>Our filters are compatible with most major brands<\/p>",
+          "bg_color": "#f7f7ff",
+          "pad_top": 100,
+          "pad_bottom": 0
         }
       },
       "eb524209-27de-4983-aea4-ff9a70d087d5": {
@@ -452,12 +456,12 @@
           "enable_live_search_images": true,
           "enable_live_search_articles_pages": true,
           "position": "center-center",
-          "show-overlay": false,
+          "show-overlay": true,
           "color": "#ffffff",
-          "background": "#000000",
-          "opacity": 50,
-          "pad_top": 50,
-          "pad_bottom": 50
+          "background": "#f7f7ff",
+          "opacity": 100,
+          "pad_top": 3,
+          "pad_bottom": 70
         }
       },
       "75d2452f-eaac-48b2-8046-1febea9ad4f0": {
