@@ -18,9 +18,14 @@
             placeholder: 'image'
            -%}
         {%- endcapture -%}
-        background-color: {{ settings.color_text | color_mix: settings.color_background, 10 }};
-        background-image: url('{{ bg_image | strip_newlines }}');
+        background-color: #fff;
       {% endunless %}
+    }
+    .promo-grid__columns--3 .promo-block--{{ block.id }} .promo-block--header {
+      margin-top: 0;
+      margin-bottom: 0.8em;
+      font-size: 1.2rem;
+      font-weight: 600;
     }
 
     {% if block.settings.show_overlay and block.settings.background != blank %}

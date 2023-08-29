@@ -30,32 +30,39 @@
       {%-
           if heading != blank
           or subheading != blank
-          or button_label != blank
-          or button_link != blank
+          or first_button_label != blank
+          or first_button_link != blank
        -%}
        <div class="animation__content-wrapper">
           {%- if heading != blank -%}
-            <h2 class="animation__heading">{{ heading | escape }}</h2>
+            <h2 class="animation__heading">{{ heading }}</h2>
           {%- endif -%}
           {%- if subheading -%}
             <div class="animation__text">{{ subheading }}</div>
           {%- endif -%}
+        </div>
+        <div class="button_wrapper">
           {%- if
             first_button_label != blank
             and first_button_link != blank
           -%}
-            <a class="first__button" href="{{ first_button_link }}">{{ first_button_label }}</a>
+            <a class="first__button image-with-text__button pxu-lia-element" href="{{ first_button_link }}">{{ first_button_label }}</a>
           {%- endif -%}
           {%- if
             second_button_label != blank
             and second_button_link != blank
           -%}
-            <a class="first__button" href="{{ second_button_link }}">{{ second_button_label }}</a>
+            <a class="second__button" href="{{ second_button_link }}">{{ second_button_label }}</a>
           {%- endif -%}
         </div>
       {%- endif -%}
     </div>
     <div class="animation__image-wrapper">
+        <div class="bg_img_animation">
+            <img src="https://uploads-ssl.webflow.com/643d92edc3cb338c3dac181b/6453eeab459b0056ad5b33b4_wave_1.svg" alt="">
+            <img src="https://uploads-ssl.webflow.com/643d92edc3cb338c3dac181b/6453eeabfc1d4ed6db083054_wave%203.svg" alt="">
+            <img src="https://uploads-ssl.webflow.com/643d92edc3cb338c3dac181b/6453eeabba9bcd9284317fb9_wave_2.svg" alt="">
+        </div>
       {%- if image != blank -%}
         {% assign alt = image.alt | default: heading %}
         {% assign crop = crop | default: 'center' %}
@@ -95,9 +102,9 @@
     },
     {
       "id": "heading",
-      "type": "text",
+      "type": "richtext",
       "label": "Heading",
-      "default": "Image with text"
+      "default": "<p>Image with text</p>"
     },
     {
       "id": "subheading",
