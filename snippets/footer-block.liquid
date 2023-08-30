@@ -46,6 +46,22 @@
         input_id: 'footer_newsletter_email'
       %}
     {% endif %}
+  
+  {% elsif block.type == 'logo'%}    
+
+    {% if block.settings.image != blank %}
+      <div class="site-footer-block-logo">
+        <a href="/">
+          {%
+            render 'rimg'
+            img: block.settings.image,
+            size: '300x',
+            lazy: true
+          %}
+        </a>
+      </div>
+    {% endif %}
+
   {% elsif block.type == 'social_accounts' %}
     <h2 class="site-footer-block-title">
       {{ 'footer.general.follow_us' | t }}

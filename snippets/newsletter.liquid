@@ -26,30 +26,11 @@
 
       <div class="form-fields-inline pxs-newsletter-form-fields">
         <div class="form-field newsletter-input">
-          <input
-            class="form-field-input form-field-text"
-            name="contact[email]"
-            id="{{ input_id }}"
-            type="email"
-            aria-label="{{ 'general.newsletter.placeholder' | t }}"
-          >
-
-          <label
-            class="form-field-title"
-            for="{{ input_id }}"
-          >
-            {{ 'general.newsletter.placeholder' | t }}
-          </label>
+          <input class="form-field-text" name="contact[email]" id="{{ input_id }}" type="email" placeholder="Email" >
         </div>
 
         <div class="form-field newsletter-submit">
-          <button
-            class="button-primary"
-            name="subscribe"
-            type="submit"
-          >
-            {{ 'general.newsletter.subscribe' | t }}
-          </button>
+          <button name="subscribe" type="submit">Join our Mailing List!</button>
         </div>
       </div>
     {% endif %}
