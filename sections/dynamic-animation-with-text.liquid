@@ -59,27 +59,11 @@
     </div>
     <div class="animation__image-wrapper">
         <div class="bg_img_animation">
-            <img src="https://uploads-ssl.webflow.com/643d92edc3cb338c3dac181b/6453eeab459b0056ad5b33b4_wave_1.svg" alt="">
-            <img src="https://uploads-ssl.webflow.com/643d92edc3cb338c3dac181b/6453eeabfc1d4ed6db083054_wave%203.svg" alt="">
-            <img src="https://uploads-ssl.webflow.com/643d92edc3cb338c3dac181b/6453eeabba9bcd9284317fb9_wave_2.svg" alt="">
+            <img src="{{ 'wave_1.svg' | asset_url }}" alt="" class="forth">
+            <img src="{{ 'wave_2.svg' | asset_url }}" alt="" class="third">
+            <img src="{{ 'wave_3.svg' | asset_url }}" alt="" class="first">
         </div>
-      {%- if image != blank -%}
-        {% assign alt = image.alt | default: heading %}
-        {% assign crop = crop | default: 'center' %}
-        {% capture image_classes %}animation__image{% endcapture %}
-        {%
-          render 'rimg'
-          img: image,
-          alt: alt,
-          size: '1500x',
-          lazy: true,
-          crop: crop,
-          class: image_classes,
-        %}
-      {%- else -%}
-        {% capture placeholder_classes %}{{ base_name }}__image {{ base_name }}__placeholder{% endcapture %}
-        {{ 'collection-1' | placeholder_svg_tag: placeholder_classes }}
-      {%- endif -%}
+      <img src="{{ 'captain.svg' | asset_url }}" class="animation__image"alt="">
     </div>
   </div>
 </section>

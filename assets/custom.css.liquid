@@ -9,6 +9,28 @@
         transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     }
 }
+@keyframes pulse1 {
+    0% {
+        transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    }
+    50% {
+        transform: translate3d(0px, -15px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    }
+    100% {
+        transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    }
+}
+@keyframes pulse2 {
+    0% {
+        transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    }
+    50% {
+        transform: translate3d(0px, -10px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    }
+    100% {
+        transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    }
+}
 .site-header-main-content {
     margin-right: 0;
 }
@@ -30,6 +52,8 @@
     margin-right: auto;
     padding-left: 25px;
     padding-right: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .animation_with_txt {
     max-height: 50rem;
@@ -65,13 +89,36 @@
 .animation__image {
     z-index: 2;
     position: absolute;
-    top: 0;
     left: 0;
     right: 0;
     bottom: 0;
+    height: 100%;
+    width: 100%;
     will-change: transform;
     transform-style: preserve-3d;
-    /* animation: pulse 5s infinite; */
+    animation: pulse 5s infinite;
+}
+.bg_img_animation img {
+    position: absolute;
+    left: 0;
+}
+img.forth {
+    bottom: 0;
+    z-index: 4;
+}
+img.third {
+    bottom: 0px;
+    z-index: 3;
+    will-change: transform;
+    transform-style: preserve-3d;
+    animation: pulse2 5s infinite;
+}
+img.first {
+    bottom: 0px;
+    z-index: 1;
+    will-change: transform;
+    transform-style: preserve-3d;
+    animation: pulse1 5s infinite;
 }
 .first__button {
     margin-right: 16px;
@@ -125,4 +172,15 @@ h2.animation__heading p {
     order: 1;
     margin-bottom: auto;
     margin-top: auto;
+}
+.collection-by-size-section .productgrid--wrapper {
+    border: 1px solid #D1D0D0;
+    background: #F3F3F3;
+    padding: 15px;
+}
+.collection-by-size-section .productitem--image-link, .collection-by-size-section .productitem__price, .collection-by-size-section .productitem--ratings {
+    display: none;
+}
+.collection-by-size-section .productitem--title {
+    margin-top: 0;
 }
