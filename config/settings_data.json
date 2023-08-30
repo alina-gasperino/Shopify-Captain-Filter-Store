@@ -468,6 +468,7 @@
         "type": "dynamic-image-with-text",
         "settings": {
           "section_heading": "",
+          "image": "shopify:\/\/shop_images\/placeholder.webp",
           "crop": "center",
           "desktop_height": "natural",
           "mobile_height": "natural",
@@ -484,6 +485,7 @@
         "type": "dynamic-image-with-text",
         "settings": {
           "section_heading": "",
+          "image": "shopify:\/\/shop_images\/placeholder.webp",
           "crop": "center",
           "desktop_height": "natural",
           "mobile_height": "natural",
@@ -622,10 +624,22 @@
           "section_columns": 3,
           "text_alignment": "center-center"
         }
+      },
+      "9bd31e2a-bd89-4f2e-a9ac-2bec4bbc5de4": {
+        "type": "dynamic-animation-with-text",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/captain.svg",
+          "heading": "<p>HVAC Filters<\/p><p>Starting at $XX<\/p>",
+          "subheading": "",
+          "first_button_label": "Shop Filters by Size",
+          "first_button_link": "shopify:\/\/collections",
+          "second_button_label": "Shop Filters by Brand",
+          "second_button_link": "shopify:\/\/collections\/all"
+        }
       }
     },
     "content_for_index": [
-      "dynamic-slideshow",
+      "9bd31e2a-bd89-4f2e-a9ac-2bec4bbc5de4",
       "ebd3c03d-a3e5-46dc-88cb-f536522e5dfe",
       "eb524209-27de-4983-aea4-ff9a70d087d5",
       "213bf4c0-c334-4d84-ae50-51574a4a12e9",
