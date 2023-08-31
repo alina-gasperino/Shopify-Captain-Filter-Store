@@ -1,0 +1,47 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {}
+    },
+    "b51cfcb4-0551-4b72-a61e-b372476c0eea": {
+      "type": "dynamic-collection-list",
+      "blocks": {
+        "template--20742248923418__b51cfcb4-0551-4b72-a61e-b372476c0eea-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "merv-11",
+            "image": "shopify:\/\/shop_images\/merv11.jpg",
+            "title": "MERV 11"
+          }
+        },
+        "e0dd2c81-cebf-46b1-8a67-59e2b2e2abba": {
+          "type": "collection",
+          "settings": {
+            "collection": "merv-13",
+            "image": "shopify:\/\/shop_images\/merv13.jpg",
+            "title": "MERV 13"
+          }
+        }
+      },
+      "block_order": [
+        "template--20742248923418__b51cfcb4-0551-4b72-a61e-b372476c0eea-collection-1",
+        "e0dd2c81-cebf-46b1-8a67-59e2b2e2abba"
+      ],
+      "settings": {
+        "title": "Shop By MERV Rating",
+        "thumbnail-columns--desktop": 4,
+        "thumbnail-columns--mobile": 2,
+        "image-crop": "original",
+        "cta_label": "",
+        "cta_link": "",
+        "cta_button_style": "primary"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "b51cfcb4-0551-4b72-a61e-b372476c0eea"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {}
+    },
+    "b51cfcb4-0551-4b72-a61e-b372476c0eea": {
+      "type": "dynamic-collection-list",
+      "blocks": {
+        "template--20742248923418__b51cfcb4-0551-4b72-a61e-b372476c0eea-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "one-inch-air-filters",
+            "title": "1\" Filters"
+          }
+        }
+      },
+      "block_order": [
+        "template--20742248923418__b51cfcb4-0551-4b72-a61e-b372476c0eea-collection-1"
+      ],
+      "settings": {
+        "title": "Shop By Size",
+        "thumbnail-columns--desktop": 4,
+        "thumbnail-columns--mobile": 2,
+        "image-crop": "original",
+        "cta_label": "",
+        "cta_link": "",
+        "cta_button_style": "primary"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "b51cfcb4-0551-4b72-a61e-b372476c0eea"
+  ]
+}

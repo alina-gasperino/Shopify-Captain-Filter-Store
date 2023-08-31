@@ -120,7 +120,11 @@
       },
       "static-list-collections": {
         "type": "static-list-collections",
-        "settings": {}
+        "settings": {
+          "thumbnail-columns--desktop": 5,
+          "thumbnail-columns--mobile": 2,
+          "image-crop": "original"
+        }
       },
       "static-article": {
         "type": "static-article",
@@ -168,41 +172,42 @@
       "static-footer": {
         "type": "static-footer",
         "blocks": {
-          "1520633482343": {
-            "type": "rich_text",
+          "7adefcfb-63c9-414f-ae0d-283f26fb74d9": {
+            "type": "logo",
             "settings": {
-              "title": "About Us",
-              "text": "<p>We aim to provide you with quality for an amazing price, don&#x27;t look any further, we have everything you need right here!<br\/><\/p><p><\/p>"
+              "image": "shopify:\/\/shop_images\/CaptainFilter_Logo.png"
+            }
+          },
+          "5136e7f8-6109-416c-8492-c2b75c4a178e": {
+            "type": "menu",
+            "settings": {
+              "menu": "shop-filters"
             }
           },
           "1497987889867": {
             "type": "menu",
             "settings": {
-              "menu": "footer"
+              "menu": "about"
             }
           },
-          "1497987853004": {
-            "type": "social_accounts",
-            "settings": {}
-          },
-          "d2d28a70-6e9f-470e-a11f-bf7a58d9fd9a": {
-            "type": "newsletter",
+          "b2496c32-4b8e-40db-bf6b-7396e443b361": {
+            "type": "rich_text",
             "settings": {
-              "title": "Subscribe",
-              "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
+              "title": "Contact Us",
+              "text": "<p><a href=\"mailto:ahoy@captainfilter.com\" title=\"mailto:ahoy@captainfilter.com\">ahoy@captainfilter.com<\/a><\/p>"
             }
           }
         },
         "block_order": [
-          "1520633482343",
+          "7adefcfb-63c9-414f-ae0d-283f26fb74d9",
+          "5136e7f8-6109-416c-8492-c2b75c4a178e",
           "1497987889867",
-          "1497987853004",
-          "d2d28a70-6e9f-470e-a11f-bf7a58d9fd9a"
+          "b2496c32-4b8e-40db-bf6b-7396e443b361"
         ],
         "settings": {
-          "payment_icons": true,
-          "show_locale_selector": true,
-          "show_currency_selector": true,
+          "payment_icons": false,
+          "show_locale_selector": false,
+          "show_currency_selector": false,
           "additional_menu": ""
         }
       },
@@ -636,6 +641,55 @@
           "second_button_label": "Shop Filters by Brand",
           "second_button_link": "shopify:\/\/collections\/all"
         }
+      },
+      "pxs-newsletter": {
+        "type": "pxs-newsletter",
+        "settings": {
+          "title": "Want to save a SHIP ton of money on your HVAC Filters?",
+          "text": "",
+          "desktop_alignment": "left",
+          "mobile_alignment": "top"
+        }
+      },
+      "2779e968-4fcb-4368-ba54-ccd40039881d": {
+        "type": "dynamic-collection-list",
+        "blocks": {
+          "2779e968-4fcb-4368-ba54-ccd40039881d-collection-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "one-inch-air-filters",
+              "title": "Shop Filters by Size"
+            }
+          },
+          "2779e968-4fcb-4368-ba54-ccd40039881d-collection-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "one-inch-air-filters",
+              "title": "Shop Filters by Brand"
+            }
+          },
+          "2779e968-4fcb-4368-ba54-ccd40039881d-collection-3": {
+            "type": "collection",
+            "settings": {
+              "collection": "one-inch-air-filters",
+              "title": "Shop Filters by MERV Rating"
+            }
+          }
+        },
+        "block_order": [
+          "2779e968-4fcb-4368-ba54-ccd40039881d-collection-1",
+          "2779e968-4fcb-4368-ba54-ccd40039881d-collection-2",
+          "2779e968-4fcb-4368-ba54-ccd40039881d-collection-3"
+        ],
+        "settings": {
+          "title": "",
+          "thumbnail-columns--desktop": 3,
+          "thumbnail-columns--mobile": 1,
+          "image-crop": "original",
+          "cta_label": "",
+          "cta_link": "",
+          "cta_button_style": "primary"
+        }
       }
     },
     "content_for_index": [
@@ -645,8 +699,9 @@
       "213bf4c0-c334-4d84-ae50-51574a4a12e9",
       "75d2452f-eaac-48b2-8046-1febea9ad4f0",
       "4d6cc5f0-7e12-4528-83c3-d7b967ba892d",
+      "43205e7d-73e3-4377-8dc8-ff46efef3698",
       "f8c180c8-44c9-42bb-bed7-5453998df8bd",
-      "43205e7d-73e3-4377-8dc8-ff46efef3698"
+      "2779e968-4fcb-4368-ba54-ccd40039881d"
     ]
   },
   "presets": {

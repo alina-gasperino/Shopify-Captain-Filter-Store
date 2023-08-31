@@ -1,0 +1,68 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {}
+    },
+    "b51cfcb4-0551-4b72-a61e-b372476c0eea": {
+      "type": "dynamic-collection-list",
+      "blocks": {
+        "fdfc6967-cd45-44a6-ad3c-07e0c58dd2a3": {
+          "type": "collection",
+          "settings": {
+            "collection": "champion-brand",
+            "image": "shopify:\/\/shop_images\/champion.png",
+            "title": "Champion"
+          }
+        },
+        "template--20742248923418__b51cfcb4-0551-4b72-a61e-b372476c0eea-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "tempstar-brand",
+            "image": "shopify:\/\/shop_images\/Tempstar-logo.jpg",
+            "title": "Tempstar"
+          }
+        },
+        "e5a09c2a-63ab-421a-8496-e65001bbe375": {
+          "type": "collection",
+          "settings": {
+            "collection": "daikin-brand",
+            "image": "shopify:\/\/shop_images\/download.png",
+            "title": "Daikin"
+          }
+        },
+        "475e2414-ce6d-4037-bdb7-60bf5160a966": {
+          "type": "collection",
+          "settings": {
+            "collection": "mortex-brand",
+            "image": "shopify:\/\/shop_images\/mortex.png",
+            "title": "Mortex"
+          }
+        }
+      },
+      "block_order": [
+        "fdfc6967-cd45-44a6-ad3c-07e0c58dd2a3",
+        "template--20742248923418__b51cfcb4-0551-4b72-a61e-b372476c0eea-collection-1",
+        "e5a09c2a-63ab-421a-8496-e65001bbe375",
+        "475e2414-ce6d-4037-bdb7-60bf5160a966"
+      ],
+      "custom_css": [
+        ".collection__item-image {height: 160px; display: flex; padding: 0 10px;}"
+      ],
+      "settings": {
+        "title": "Shop By Brand Compatibility",
+        "thumbnail-columns--desktop": 4,
+        "thumbnail-columns--mobile": 2,
+        "image-crop": "original",
+        "cta_label": "",
+        "cta_link": "",
+        "cta_button_style": "primary"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "b51cfcb4-0551-4b72-a61e-b372476c0eea"
+  ]
+}

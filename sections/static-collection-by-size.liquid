@@ -65,7 +65,7 @@
   {% render 'breadcrumbs' %}
   
   {% paginate collection.products by paginate_by %}
-    <div class="productgrid--outer {{ collection_classes | strip_newlines }}">
+    <div class="productgrid--outer {{ collection_classes | strip_newlines }} {{ collection.title | downcase | replace: " ", "_" }}">
       <div class="productgrid--masthead {% if section.settings.show_collection_image and collection.image %} flex{% endif%}">
   
         {% if section.settings.show_collection_image and collection.image %}
