@@ -40,9 +40,9 @@
     "product_show_vendor": false,
     "product_show_sku": false,
     "product_option_style": "radio",
-    "product_sales_badge": false,
+    "product_sales_badge": true,
     "product_sales_badge_style": "percentile",
-    "product_social_sharing": false,
+    "product_social_sharing": true,
     "product_ratings_reviews": true,
     "product_ratings_star_display": "all",
     "product_grid_show_second_image": false,
@@ -52,9 +52,9 @@
     "product_grid_show_atc": "disabled",
     "quickshop_show_dcb": false,
     "quickshop_product_cart_redirect": false,
-    "swatches_enable": false,
+    "swatches_enable": true,
     "swatches_swatch_trigger": "Color",
-    "swatches_shape": "square",
+    "swatches_shape": "circle",
     "swatches_product_card_size": 16,
     "swatches_product_page_size": 16,
     "swatches_option_style": "color_swatch",
@@ -330,7 +330,7 @@
           "gallery_thumbnail_position": "below",
           "gallery_video_autoplay": true,
           "gallery_video_looping": true,
-          "gallery_hover_zoom": "disabled",
+          "gallery_hover_zoom": "separate",
           "gallery_click_to_zoom": "always"
         }
       },
@@ -651,44 +651,43 @@
           "mobile_alignment": "top"
         }
       },
-      "2779e968-4fcb-4368-ba54-ccd40039881d": {
-        "type": "dynamic-collection-list",
+      "901e9bdc-6339-4caa-bcc9-1a750d2d584b": {
+        "type": "text-columns",
         "blocks": {
-          "2779e968-4fcb-4368-ba54-ccd40039881d-collection-1": {
-            "type": "collection",
+          "901e9bdc-6339-4caa-bcc9-1a750d2d584b-column-1": {
+            "type": "column",
             "settings": {
-              "collection": "one-inch-air-filters",
-              "title": "Shop Filters by Size"
+              "image": "shopify:\/\/shop_images\/by_inch.png",
+              "title": "Shop Filters by Size",
+              "cta_link": "shopify:\/\/pages\/shop-by-size"
             }
           },
-          "2779e968-4fcb-4368-ba54-ccd40039881d-collection-2": {
-            "type": "collection",
+          "901e9bdc-6339-4caa-bcc9-1a750d2d584b-column-2": {
+            "type": "column",
             "settings": {
-              "collection": "one-inch-air-filters",
-              "title": "Shop Filters by Brand"
+              "image": "shopify:\/\/shop_images\/champion.png",
+              "title": "Shop Filters by Brand",
+              "cta_link": "shopify:\/\/pages\/shop-by-brand"
             }
           },
-          "2779e968-4fcb-4368-ba54-ccd40039881d-collection-3": {
-            "type": "collection",
+          "901e9bdc-6339-4caa-bcc9-1a750d2d584b-column-3": {
+            "type": "column",
             "settings": {
-              "collection": "one-inch-air-filters",
-              "title": "Shop Filters by MERV Rating"
+              "image": "shopify:\/\/shop_images\/merv11.jpg",
+              "title": "Shop Filters by MERV Rating",
+              "cta_link": "shopify:\/\/pages\/shop-by-merv"
             }
           }
         },
         "block_order": [
-          "2779e968-4fcb-4368-ba54-ccd40039881d-collection-1",
-          "2779e968-4fcb-4368-ba54-ccd40039881d-collection-2",
-          "2779e968-4fcb-4368-ba54-ccd40039881d-collection-3"
+          "901e9bdc-6339-4caa-bcc9-1a750d2d584b-column-1",
+          "901e9bdc-6339-4caa-bcc9-1a750d2d584b-column-2",
+          "901e9bdc-6339-4caa-bcc9-1a750d2d584b-column-3"
         ],
         "settings": {
           "title": "",
           "thumbnail-columns--desktop": 3,
-          "thumbnail-columns--mobile": 1,
-          "image-crop": "original",
-          "cta_label": "",
-          "cta_link": "",
-          "cta_button_style": "primary"
+          "thumbnail-columns--mobile": 1
         }
       }
     },
@@ -701,7 +700,7 @@
       "4d6cc5f0-7e12-4528-83c3-d7b967ba892d",
       "43205e7d-73e3-4377-8dc8-ff46efef3698",
       "f8c180c8-44c9-42bb-bed7-5453998df8bd",
-      "2779e968-4fcb-4368-ba54-ccd40039881d"
+      "901e9bdc-6339-4caa-bcc9-1a750d2d584b"
     ]
   },
   "presets": {
