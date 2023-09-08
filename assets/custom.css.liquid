@@ -241,3 +241,68 @@ h2.animation__heading p {
     margin-left: auto;
     margin-right: auto;
 }
+.text-columns--section .collection__item-image img {
+    width: auto;
+    margin: 0 auto;
+    height: 160px;
+}
+.text-columns--section .collection__item-image {
+    padding-top: 1em;
+}
+
+@media screen and (max-width: 500px) {
+    .animation_with_txt {
+        display: block;
+        max-height: initial;
+        height: initial;
+    }
+    .animation__content, .image-with-text--desktop-height-natural .image-with-text__image {
+        width: 100%;
+        padding: 0;
+    }
+    .animation__image-wrapper {
+        width: 100%;
+        height: 300px;
+    }
+    .image-with-text__image-wrapper {
+        padding: 1.25rem;
+    }
+    h2.animation__heading p {
+        font-size: 3rem;
+    }
+    .first__button {
+        margin-right: 0;
+    }
+    .button_wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    .flex {
+        flex-direction: column;
+    }
+    .flex .collection--image {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .flex .size_info {
+        width: 100%;
+        text-align: center;
+    }
+    .collection--image img {
+        width: auto;
+    }
+    .promo-block--expanded .promo-block--content-wrapper .promo-block--text, .promo-block--expanded:not(.animating-out) .promo-block--content-wrapper .promo-block--text {
+        max-width: 100%;
+    }
+    .testimonials-section, .text-columns--section .collection-list__content[data-layout=grid] {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+    .site-footer-block-logo {
+        text-align: center;
+    }
+    .site-footer-block-logo img {
+        width: 50%;
+    }
+}

@@ -1,0 +1,149 @@
+<script
+    type="application/json"
+    data-section-id="{{ section.id }}"
+    data-section-type="dynamic-collection-list">
+  </script>
+  
+  <script type="application/pxs-animation-mapping+json">
+    {
+      "blocks": [".collection__item"],
+      "elements": [
+        ".collection__item-info"
+      ]
+    }
+  </script>
+  
+  {% style %}
+    #shopify-section-{{ section.id }} .collection-list__content {
+      grid-template-columns: repeat({{ section.settings.thumbnail-columns--desktop }}, minmax(auto, 1fr));
+    }
+  
+    @media only screen and (max-width: 860px) {
+      #shopify-section-{{ section.id }} .collection-list__content {
+        grid-template-columns: repeat({{ section.settings.thumbnail-columns--mobile }}, minmax(auto, 1fr));
+      }
+    }
+  {% endstyle %}
+  
+  <section class="collection-list__container">
+    {% if section.settings.title != blank %}
+      <h2 class="home-section--title">
+        {{ section.settings.title | escape }}
+      </h2>
+    {% endif %}
+  
+    {% if section.blocks.size > 0 %}
+      <ul
+        class="
+          home-section--content
+          collection-list__content
+          collection--image-crop-{{ section.settings.image-crop }}
+          {% if section.settings.cta_label == blank %}no-cta{% endif %}
+        "
+        data-layout="grid"
+      >
+        {% for block in section.blocks %}
+            <li class="collection__item" {% if block %}{{ block.shopify_attributes }}{% endif %}>
+                <a href="{{ block.settings.cta_link }}">
+                  <figure class="collection__item-image">
+                      {% if block.settings.image %}
+                        {%
+                          render 'rimg',
+                          img: block.settings.image,
+                          alt: "",
+                          size: '1350x',
+                          lazy: true,
+                          canvas: true,
+                          attr: 'data-collection-image'
+                        %}
+                      {% else %}
+                        {%- capture index -%}
+                          {%- cycle '1', '2', '3', '4', '5', '6' -%}
+                        {%- endcapture -%}
+                        {{ 'collection-' | append: index | placeholder_svg_tag: 'placeholder--image' }}
+                      {% endif %}
+                  </figure>
+              
+                  <span class="collection__item-info collection__item-title">
+                      {{ block.settings.title }}
+                  </span>
+                </a>
+            </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </section>
+  
+  {% schema %}
+  {
+    "name": "Text Coulmns",
+    "class": "text-columns--section",
+    "max_blocks": 20,
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Collection list"
+      },
+      {
+        "type": "range",
+        "id": "thumbnail-columns--desktop",
+        "label": "Columns per row",
+        "min": 3,
+        "max": 6,
+        "step": 1,
+        "default": 5
+      },
+      {
+        "type": "range",
+        "id": "thumbnail-columns--mobile",
+        "label": "Columns per row on mobile",
+        "min": 1,
+        "max": 3,
+        "step": 1,
+        "default": 2
+      }
+    ],
+    "blocks": [
+      {
+        "type": "column",
+        "name": "Column",
+        "settings": [
+          {
+            "id": "image",
+            "type": "image_picker",
+            "label": "Image"
+          },
+          {
+            "id": "title",
+            "type": "text",
+            "label": "Title"
+          },
+          {
+            "type": "url",
+            "id": "cta_link",
+            "label": "Link"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Text Coulmns",
+        "category": "Collection",
+        "blocks": [
+          {
+            "type": "column"
+          },
+          {
+            "type": "column"
+          },
+          {
+            "type": "column"
+          }
+        ]
+      }
+    ]
+  }
+  {% endschema %}
